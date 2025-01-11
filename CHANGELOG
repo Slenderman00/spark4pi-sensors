@@ -1,0 +1,45 @@
+spark4pi-digital-io (2.10) jammy; urgency=medium
+
+  * Added support for 1.65V input level-shifting. Needed when 3.3V output is 50 ohm terminated
+  * Fixed last misleading via on incorrect pin in the virtual 2x20 silkscreen connector 
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Wed, 10 Apr 2024 20:54:54 +0200
+
+spark4pi-digital-io (2.9) jammy; urgency=medium
+
+  * Modified signal5 trace to fix a misleading via on incorrect pin in the virtual 2x20 silkscreen connector
+  * Corrected USB-C connector cutout offset on the back panel and replaced circular with rectangular shape
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Mon, 18 Mar 2024 12:39:42 +0100
+
+spark4pi-digital-io (2.8) jammy; urgency=medium
+
+  * Added jumper for selecting voltage of the SMA output driver IC with 3.3V and 5V options
+  * Added missing mounting holes, corrected front and back panel connector cutouts
+  * Fixed BOM
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sat, 16 Mar 2024 18:46:15 +0100
+
+spark4pi-digital-io (2.7) jammy; urgency=medium
+
+  * Matched trace lengths for port 1-6 signals
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Sat, 10 Feb 2024 00:31:58 +0100
+
+spark4pi-digital-io (2.6) jammy; urgency=medium
+
+  * Added ground vias on both sides of each signal track
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Fri, 09 Feb 2024 10:46:03 +0100
+
+spark4pi-digital-io (2.5) jammy; urgency=medium
+
+  * Completed interfaces 2-6
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Thu, 08 Feb 2024 15:21:37 +0100
+
+spark4pi-digital-io (2.4) jammy; urgency=medium
+
+  * Initial release
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Wed, 07 Feb 2024 14:54:32 +0100
