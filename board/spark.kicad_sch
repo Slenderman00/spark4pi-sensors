@@ -3833,6 +3833,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:AO3400A"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3400A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "AO3400A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:IRLZ44N"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -5623,6 +5918,12 @@
 		)
 	)
 	(junction
+		(at 149.86 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "030c8e7b-a469-457a-a96a-e3d9d9fa4ea5")
+	)
+	(junction
 		(at 95.25 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5659,12 +5960,6 @@
 		(uuid "23b724a9-b13f-4763-9a5b-948b5cc4085f")
 	)
 	(junction
-		(at 80.01 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26275545-9e13-4b89-94e3-8029f5a6eddb")
-	)
-	(junction
 		(at 467.36 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5683,16 +5978,16 @@
 		(uuid "41dc19c1-2e44-4a64-bdbe-d2533b517daa")
 	)
 	(junction
+		(at 80.01 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f5f90f3-c9be-4c34-99b1-5062ed3f246e")
+	)
+	(junction
 		(at 295.91 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "507994a3-bd24-4954-9050-b5665c6dfe7f")
-	)
-	(junction
-		(at 38.1 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5475a8b3-871c-4b3c-b29c-0c93ac0954de")
 	)
 	(junction
 		(at 88.9 123.19)
@@ -5717,6 +6012,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "603be5a4-6cfb-48ea-bf13-51e0de490e92")
+	)
+	(junction
+		(at 78.74 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63ad7ab0-ef3b-4d57-aa9a-608faec0ee00")
+	)
+	(junction
+		(at 60.96 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b130824-b773-4c97-9b51-578a4f60b183")
 	)
 	(junction
 		(at 107.95 113.03)
@@ -5761,6 +6068,12 @@
 		(uuid "8876165f-a533-4adc-87fd-4ac9a9de5286")
 	)
 	(junction
+		(at 39.37 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7d2654-7f37-4180-9618-102770761244")
+	)
+	(junction
 		(at 466.09 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5777,6 +6090,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "977ee3a2-79e7-486a-9395-127a79033e34")
+	)
+	(junction
+		(at 69.85 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a752d674-bf0f-488b-bebe-10c217706e16")
 	)
 	(junction
 		(at 107.95 123.19)
@@ -5797,10 +6116,10 @@
 		(uuid "b880fbc4-9722-48f5-a652-ed757d77cc68")
 	)
 	(junction
-		(at 39.37 53.34)
+		(at 38.1 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bbf882f5-6681-49e2-9182-c8ceec591703")
+		(uuid "c38113e3-a72c-4747-8bc3-fdaf2bc74688")
 	)
 	(junction
 		(at 128.27 189.23)
@@ -5821,12 +6140,6 @@
 		(uuid "d383b258-5a58-4a36-a484-3fdcb202b769")
 	)
 	(junction
-		(at 69.85 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd72c599-75f5-488e-893a-4fff4f34407f")
-	)
-	(junction
 		(at 130.81 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5839,22 +6152,10 @@
 		(uuid "df4ca997-e927-46bb-b0f8-bb05f8a52bb4")
 	)
 	(junction
-		(at 78.74 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e984422a-fb8e-435d-9837-0b54cd6424a6")
-	)
-	(junction
 		(at 336.55 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef24a5b2-42ce-43e3-8176-4dba7fcd6573")
-	)
-	(junction
-		(at 60.96 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef83dc00-8f56-44d1-99e2-d6f01b7817a6")
 	)
 	(junction
 		(at 317.5 87.63)
@@ -6107,6 +6408,16 @@
 			(type default)
 		)
 		(uuid "34b0ba4e-ad0a-42b4-9dca-bd1a5f0a58cd")
+	)
+	(wire
+		(pts
+			(xy 149.86 133.35) (xy 149.86 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f86d10-d488-4b54-aaf5-752da78db9f2")
 	)
 	(wire
 		(pts
@@ -6797,6 +7108,16 @@
 			(type default)
 		)
 		(uuid "afc7c740-a0a0-4664-b524-e1dd579700f1")
+	)
+	(wire
+		(pts
+			(xy 149.86 142.24) (xy 149.86 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31d1544-e1df-4990-932e-926a81adad7e")
 	)
 	(wire
 		(pts
@@ -10009,9 +10330,9 @@
 			)
 		)
 	)
-	(global_label "CS_0"
+	(global_label "CS_1"
 		(shape input)
-		(at 149.86 130.81 270)
+		(at 149.86 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10021,7 +10342,7 @@
 		)
 		(uuid "f8fad2ab-c937-4dc0-b25f-1bd0ab053b69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 139.1947 90)
+			(at 149.86 150.6247 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,7 +11003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.04 117.348 90)
 			(effects
 				(font
@@ -10821,7 +11142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.67 129.032 90)
 			(effects
 				(font
@@ -10925,6 +11246,82 @@
 			(project "spark"
 				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 33.02 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b70bb53-932c-48d5-87ad-928b94c231f0")
+		(property "Reference" "Q22"
+			(at 26.67 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 26.67 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 27.94 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 33.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "862f18bc-4a98-48d8-b7fb-2094de911bdd")
+		)
+		(pin "2"
+			(uuid "c7b55e2c-3003-43b7-9d17-0d51e1144874")
+		)
+		(pin "1"
+			(uuid "d142f61e-f52e-4732-baff-d5e24dfe1f63")
+		)
+		(instances
+			(project ""
+				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
+					(reference "Q22")
 					(unit 1)
 				)
 			)
@@ -11142,35 +11539,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 34.29 53.34 180)
+		(lib_id "Transistor_FET:AO3400A")
+		(at 69.85 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13b90dc3-5704-447c-9159-1f669d78461c")
-		(property "Reference" "Q2"
-			(at 27.94 52.0699 0)
+		(uuid "13c73b9a-8a2b-45ef-a459-ab2c74b3ec95")
+		(property "Reference" "Q5"
+			(at 69.85 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "IRLZ44N"
-			(at 27.94 54.6099 0)
+		(property "Value" "AO3400A"
+			(at 69.85 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 29.21 51.435 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 67.945 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,8 +11575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 29.21 49.53 0)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 66.04 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11190,8 +11585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 34.29 53.34 0)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11199,19 +11594,19 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "7cd76097-ce15-4fc5-a419-04eccd0c164c")
+		(pin "3"
+			(uuid "aeeeb1bf-ac9f-4060-8e4b-2f2d2039ff11")
 		)
 		(pin "2"
-			(uuid "f9480ba0-f335-40f0-ab8f-aaf404df95e1")
+			(uuid "a1093aba-06f6-44d5-85c5-0ce94ce1831b")
 		)
-		(pin "3"
-			(uuid "a4965e88-9f40-4cc6-9796-68df584eaccd")
+		(pin "1"
+			(uuid "72d937c9-5055-47a7-a812-fecdfbccf81d")
 		)
 		(instances
 			(project "spark"
 				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
-					(reference "Q2")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -11312,7 +11707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 37.592 49.53 90)
 			(effects
 				(font
@@ -11480,7 +11875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.232 50.8 90)
 			(effects
 				(font
@@ -12503,6 +12898,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 74.93 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fa96eaa-8f62-4f15-8099-2b79091ca62a")
+		(property "Reference" "Q3"
+			(at 68.58 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 68.58 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.85 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 69.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9287e357-0e45-48eb-8e17-8601ce7216c7")
+		)
+		(pin "2"
+			(uuid "0ad6572c-48df-4ed0-a225-d4ca20b6eb95")
+		)
+		(pin "1"
+			(uuid "04576f52-1c69-4048-9fc0-0a2502526265")
+		)
+		(instances
+			(project "spark"
+				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 425.45 27.94 180)
 		(unit 1)
@@ -12563,82 +13034,6 @@
 			(project "spark"
 				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 69.85 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "339d7d4a-21dc-4977-91bf-5d77dc2517b0")
-		(property "Reference" "Q6"
-			(at 68.5799 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 71.1199 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 67.945 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 69.85 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e23f47f-1ddc-4fad-b35a-25d14bc93df1")
-		)
-		(pin "2"
-			(uuid "6cc8138d-e5ff-48b8-b273-ea528f4fd9a2")
-		)
-		(pin "3"
-			(uuid "3980b52e-967b-4ef5-9b5d-b600f4d17674")
-		)
-		(instances
-			(project "spark"
-				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -12784,82 +13179,6 @@
 			(project "spark"
 				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 33.02 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3956fd27-496e-4e31-b2a2-96bee4f481db")
-		(property "Reference" "Q1"
-			(at 26.67 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 26.67 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 27.94 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 27.94 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 33.02 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee1d11ed-d280-4854-b6a1-22d2583718e0")
-		)
-		(pin "2"
-			(uuid "0a0769d4-d33a-4633-a18c-6089feb197d1")
-		)
-		(pin "3"
-			(uuid "d56f5f2b-d1bd-4af8-8fda-a4bdadc010ae")
-		)
-		(instances
-			(project ""
-				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -13421,82 +13740,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 73.66 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47fe6771-7b3c-40be-b757-b37717244e9d")
-		(property "Reference" "Q3"
-			(at 67.31 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 67.31 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 68.58 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 68.58 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 73.66 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "692f57d2-498c-498f-8ec1-159391d5d1cd")
-		)
-		(pin "2"
-			(uuid "57a3f335-a7c2-494a-8111-fa8f5b2ea409")
-		)
-		(pin "3"
-			(uuid "e37309e6-0987-46e7-adb8-c1b77d94150c")
-		)
-		(instances
-			(project "spark"
-				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 114.3 189.23 0)
 		(unit 1)
@@ -13623,82 +13866,6 @@
 			(project "spark"
 				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 74.93 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b0fd9e3-6aa1-4f21-a32b-3d01296d14ca")
-		(property "Reference" "Q4"
-			(at 68.58 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 68.58 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 69.85 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 69.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 74.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91e9235c-b94f-465d-b1a3-4a1aa651760b")
-		)
-		(pin "2"
-			(uuid "6d1935aa-4678-47b7-9d08-cdb5a6f085b6")
-		)
-		(pin "3"
-			(uuid "d1017ed0-1e08-4bcf-9b38-c885e5d7175a")
-		)
-		(instances
-			(project "spark"
-				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -15102,6 +15269,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 55.88 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a58a4ce-a4df-4e0c-a4bc-689d29fa92e9")
+		(property "Reference" "Q4"
+			(at 49.53 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 49.53 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 50.8 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 55.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "40dfe4ba-25c2-48b2-9d77-9b365a54adc8")
+		)
+		(pin "2"
+			(uuid "06e9fb4f-3b1c-47c4-b1bd-c0c4c5102a84")
+		)
+		(pin "1"
+			(uuid "b0ad21e1-57b5-456e-a2f3-d7b2e1cd2f97")
+		)
+		(instances
+			(project "spark"
+				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 322.58 128.27 90)
 		(unit 1)
@@ -15438,6 +15681,80 @@
 			(project "spark"
 				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 149.86 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73675ffa-d125-48d4-8895-c8370f053fe1")
+		(property "Reference" "Q6"
+			(at 149.86 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 149.86 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 151.765 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 153.67 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ad292232-24b1-47a1-af7d-2fa9f5a92240")
+		)
+		(pin "2"
+			(uuid "12c09aee-5220-4001-aeda-15106baa5e1e")
+		)
+		(pin "1"
+			(uuid "3734e4b0-782f-4649-92ca-2daeedb09a79")
+		)
+		(instances
+			(project "spark"
+				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -17314,7 +17631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.182 71.12 90)
 			(effects
 				(font
@@ -17427,6 +17744,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 73.66 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7aad0af-f229-4be1-b6ad-e32ab08f85cb")
+		(property "Reference" "Q2"
+			(at 67.31 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 67.31 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 68.58 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 68.58 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 73.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1b3df9c9-6483-4f21-ac20-4bce9f05e337")
+		)
+		(pin "2"
+			(uuid "b42a84a3-4b1d-4f31-ba10-1f9eb4a4f234")
+		)
+		(pin "1"
+			(uuid "2e4f4178-999e-4fd5-aa72-b23f5e3e210c")
+		)
+		(instances
+			(project "spark"
+				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:RJ45")
 		(at 509.27 139.7 90)
 		(unit 1)
@@ -17509,82 +17902,6 @@
 			(project "spark"
 				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 55.88 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9554396-209b-4b21-a03d-f513bf9804eb")
-		(property "Reference" "Q5"
-			(at 49.53 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 49.53 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 50.8 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 50.8 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 55.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a813b128-73d3-4a46-9782-ab018b85beb8")
-		)
-		(pin "2"
-			(uuid "8c05cecc-1193-4e13-95b2-7c6cc68d9ab1")
-		)
-		(pin "3"
-			(uuid "de763304-735a-4df7-bbf9-3476355c6028")
-		)
-		(instances
-			(project "spark"
-				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -18912,82 +19229,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 149.86 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3ff6b81-dcaa-40f0-9f92-f737298ef2c8")
-		(property "Reference" "Q7"
-			(at 151.1301 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 148.5901 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 151.765 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 153.67 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81e4dc01-2ed6-4b9a-9c7d-c33306fa57b1")
-		)
-		(pin "2"
-			(uuid "121bc642-734f-4615-8027-8774f7036990")
-		)
-		(pin "3"
-			(uuid "456690f6-9d5f-4334-9687-e2da59548b30")
-		)
-		(instances
-			(project "spark"
-				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 34.29 35.56 180)
 		(unit 1)
@@ -19813,6 +20054,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 149.86 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7966b53-27b7-4e1c-b1ca-84361ab473d2")
+		(property "Reference" "D17"
+			(at 147.574 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Active LED"
+			(at 148.082 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb86d11e-4a75-449a-acc3-5761c3c133bb")
+		)
+		(pin "1"
+			(uuid "a896ae43-58a6-4ea1-9390-a1cf616b42a0")
+		)
+		(instances
+			(project "spark"
+				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 401.32 143.51 270)
 		(unit 1)
@@ -19981,6 +20291,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 34.29 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da27e784-c147-4b42-9f23-a48611cccaef")
+		(property "Reference" "Q1"
+			(at 27.94 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 27.94 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 29.21 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "32c9ceed-34ce-4176-b1e2-f0cf144306ac")
+		)
+		(pin "2"
+			(uuid "1d7412c3-e38e-4bad-b25c-82e3e69899f1")
+		)
+		(pin "1"
+			(uuid "7c952b8a-b395-4e29-8da9-6a2dee2268c3")
+		)
+		(instances
+			(project "spark"
+				(path "/45008225-f50f-4d6b-b508-6730a9408caf"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 130.81 90)
 		(unit 1)
@@ -20048,7 +20434,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 26.67 0)
+		(at 38.1 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20062,7 +20448,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1k"
@@ -20071,11 +20457,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 36.322 26.67 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 39.878 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21117,7 +21503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.962 26.67 90)
 			(effects
 				(font
