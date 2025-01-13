@@ -21,6 +21,10 @@ jobs:
           type: "schematic_svg"
           black-and-white: true
 
+      # Move spark.svg to ./images/schematic.svg
+      - name: Move schematic SVG to correct location
+        run: mv ./spark.svg ./images/schematic.svg
+
       - name: Upload schematic SVG
         uses: actions/upload-artifact@v4
         with:
