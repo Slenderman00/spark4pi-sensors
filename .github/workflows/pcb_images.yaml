@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  schematic:
+  export_schematic:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -29,6 +29,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
 
   render_pcb_images:
+    needs: export_schematic
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
