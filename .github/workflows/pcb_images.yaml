@@ -21,11 +21,9 @@ jobs:
           type: "schematic_svg"
           black-and-white: true
 
-      # Move spark.svg to ./images/schematic.svg
       - name: Move schematic SVG to correct location
         run: mv ./spark.svg ./images/schematic.svg
 
-      # Commit the schematic SVG to the repository
       - name: Commit schematic SVG
         run: |
           git config user.name "github-actions"
@@ -34,7 +32,7 @@ jobs:
           git commit -m "Update schematic SVG"
           git push
 
-  render_pcb_gif:
+  render_pcb_images:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -50,39 +48,12 @@ jobs:
           output_path: "${{ github.workspace }}/images"
           animation: "gif"
 
-      - name: Move PCB GIF to correct location
-        run: mv "${{ github.workspace }}/images/*.gif" ./images/pcb_image.gif
-
       - name: Commit PCB image
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add ./images/pcb_image.gif
-          git commit -m "Update PCB image GIF"
-          git push
-
-  render_pcb_image:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - uses: actions-for-kicad/setup-kicad@v1
-        with:
-          version: "8.0"
-
-      - name: Render PCB image
-        uses: linalinn/kicad-render@main
-        with:
-          pcb_file: "./board/spark.kicad_pcb"
-          output_path: "${{ github.workspace }}/images"
-
-      - name: Move PCB GIF to correct location
-        run: mv "${{ github.workspace }}/images/*.png" ./images
-
-      - name: Commit PCB image
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add ./images/*
-          git commit -m "Update PCB image PNGs"
+          git add ./images/rotating.gif
+          git add ./images/top.png
+          git add ./images/bottom.png
+          git commit -m "Update PCB images"
           git push
