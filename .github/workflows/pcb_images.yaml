@@ -1,0 +1,26 @@
+name: pcb_images
+on:
+  push:
+jobs:
+  - name: schematic
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions-for-kicad/setup-kicad@v1
+        with:
+          version: "8.0"
+      - uses: actions-for-kicad/generate-kicad-files@v1
+        with:
+          file: "./board/spark.kicad_sch"
+          type: "schematic_svg"
+          black-and-white: true
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: "schematic.svg"
+          path: "./images/schematic.svg"
+  - name: render pcb image
+    uses: linalinn/kicad-render@main
+    with:
+      pcb_file: "./board/spark.kicad_pcb"
+      output_path: ${{ github.workspace }}/images
+      animation: gif
