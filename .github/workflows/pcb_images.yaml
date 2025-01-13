@@ -9,9 +9,9 @@ jobs:
   schematic:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.head_ref }}
 
       - uses: actions-for-kicad/setup-kicad@v1
         with:
@@ -26,20 +26,14 @@ jobs:
       - name: Move schematic SVG to correct location
         run: mv ./spark.svg ./images/schematic.svg
 
-      - name: Commit schematic SVG
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add ./images/schematic.svg
-          git commit -m "Update schematic SVG"
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v5
 
   render_pcb_images:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.head_ref }}
 
       - uses: actions-for-kicad/setup-kicad@v1
         with:
@@ -51,13 +45,4 @@ jobs:
           pcb_file: "./board/spark.kicad_pcb"
           output_path: "${{ github.workspace }}/images"
           animation: "gif"
-
-      - name: Commit PCB image
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add ./images/rotating.gif
-          git add ./images/top.png
-          git add ./images/bottom.png
-          git commit -m "Update PCB images"
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v5
