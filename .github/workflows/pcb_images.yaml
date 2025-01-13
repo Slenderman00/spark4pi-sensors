@@ -32,6 +32,10 @@ jobs:
     needs: export_schematic
     runs-on: ubuntu-latest
     steps:
+      - name: Sleep for 60 seconds
+        uses: jakejarvis/wait-action@master
+        with:
+        time: '60s'
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
