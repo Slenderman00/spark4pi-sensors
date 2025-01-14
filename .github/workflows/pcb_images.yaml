@@ -49,4 +49,7 @@ jobs:
           pcb_file: "./board/spark.kicad_pcb"
           output_path: "${{ github.workspace }}/images"
           animation: "gif"
+      - name: Pull remote changes
+        run: |
+          git pull origin main
       - uses: stefanzweifel/git-auto-commit-action@v5
